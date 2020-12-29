@@ -1,5 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 /* mixins, variables, etc. */
 $gray-medium-light: #eaeaea;
@@ -59,11 +61,11 @@ p {
 
 /* header */
 #logo {
-  float: left;
-  margin-right: 10px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
   font-size: 1.7em;
   color: white;
-  text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;

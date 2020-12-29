@@ -4,9 +4,13 @@
     <title><%= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <meta name="description" content="Wireframe design of an album page by Pingendo">
+    <meta name="keywords" content="Pingendo bootstrap example template wireframe album ">
+    <meta name="author" content="Pingendo">
     <%= stylesheet_link_tag    'application', media: 'all',
                                'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application','data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <%= render 'layouts/shim' %>
   </head>
   <body>
